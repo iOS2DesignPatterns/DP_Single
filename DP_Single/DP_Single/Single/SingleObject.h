@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+// 防止有子类 (感谢评论区网友提醒)
+__attribute__((objc_subclassing_restricted))
 @interface SingleObject : NSObject
 
 /**
